@@ -1,6 +1,10 @@
 module.exports = {
-  // Target must be serverless
   target: 'serverless',
-  // distDir already has .next as default
-  distDir: '.next',
-};
+  webpack: function (config) {
+    config.module.rules.push({
+      test: /\.md$/,
+      use: 'raw-loader',
+    })
+    return config
+  },
+}
