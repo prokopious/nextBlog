@@ -21,8 +21,7 @@ export default function Index({ allPosts }) {
   
   
   <a href="#about">About</a>
-  <a href="#services">Services</a>
-  <a href="#clients">Clients</a>
+  <a href="#services">Classifier</a>
   <a href="#contact">Contact</a>
 </div>
 
