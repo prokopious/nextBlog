@@ -1,0 +1,7 @@
+{
+  "/api/model": "pages/api/model.js",
+  "/": "pages/index.js",
+  "/posts/[slug]": "pages/posts/[slug].js",
+  "/_error": "pages/_error.js",
+  "/404": "pages/404.html"
+}
